@@ -1,6 +1,6 @@
 cask "virustotal" do
-  version "1.3.1"
-  sha256 "2b1337f8061ce56d39774813c49d24b34851b58f186aeb2e557ac0f79cd75144"
+  version "1.4"
+  sha256 "8dd59f2507bf640f765256cd928ff08998209cd07953bffc5f6e38aa128fe716"
 
   url "https://github.com/Jerry23011/VirusTotal-macOS/releases/download/#{version}/VirusTotal.dmg"
   name "VirusTotal for macOS"
