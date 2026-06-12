@@ -18,7 +18,7 @@ cask "cork" do
     homepage "https://www.corkmac.app"
 
     auto_updates false
-    depends_on macos: ">= :ventura"
+    depends_on macos: :ventura
 
     app "Cork.app"
 end
