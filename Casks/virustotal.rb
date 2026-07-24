@@ -1,6 +1,6 @@
 cask "virustotal" do
-  version "1.5.2"
-  sha256 "2600d86812f273ac7de764f291a33a10c6d15b7c4da81d35f681269d38d1618f"
+  version "1.5.3"
+  sha256 "1213138b678d54f000c8796c9a348a978f0f9eec7387fb8e41a2d87752cbd7c6"
 
   url "https://github.com/Jerry23011/VirusTotal-macOS/releases/download/#{version}/VirusTotal.dmg"
   name "VirusTotal for macOS"
@@ -8,7 +8,7 @@ cask "virustotal" do
   homepage "https://github.com/Jerry23011/VirusTotal-macOS"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "VirusTotal.app"
 
