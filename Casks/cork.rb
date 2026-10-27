@@ -8,7 +8,7 @@ cask "cork" do
     end
 
     on_sonoma :or_newer do
-        version "2.1.0"
+        version "2.1.1"
 
         url "https://corkmac.app/RLS/#{version}/Cork.zip"
     end
